@@ -4,13 +4,19 @@ namespace EmployeeDatabase
 {
     class Program
     {
-        static void Main(string[] args)
+        // 1st method
+        static void DisplayGreeting()
         {
             Console.WriteLine("--------------------------------");
             Console.WriteLine("Welcome to Our Employee Database");
             Console.WriteLine("--------------------------------");
             Console.WriteLine();
             Console.WriteLine();
+        }
+        static void Main(string[] args)
+        {
+            // 1st method called on 
+            DisplayGreeting();
 
             Console.Write("What is your name? ");
             var name = Console.ReadLine();
